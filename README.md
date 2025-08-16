@@ -1,4 +1,5 @@
 # Gemini AI Chatbot
+![Chatbot Preview](chatbot-preview.png)
 
 Simple web chatbot using Google Generative AI (Gemini) with an Express backend and a vanilla JS frontend that renders markdown safely.
 
@@ -51,6 +52,7 @@ Example conversation:
     ├── index.js             # Backend Express server with Gemini API integration
     ├── .env                 # API key configuration (not included in repo)
     ├── .gitignore           # Ignore node_modules, .env, etc.
+    ├── chatbot-preview.png  # Preview for documentation
     ├── package.json         # Project metadata and dependencies
     ├── package-lock.json    # Dependency lock file
     └── README.md            # Project documentation
