@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.chat-box {
+  height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+}
+
+.message {
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-radius: 20px;
+  max-width: 80%;
+  display: block;
+  clear: both;
+}
+
+.message.user {
+  background-color: #d1e7ff;
+  float: right;
+  text-align: right;
+  margin-left: auto;
+}
+
+.message.bot {
+  background-color: #dff6dd;
+  float: left;
+  text-align: left;
+  margin-right: auto;
+}
+
+/* Markdown styling for bot messages */
+.message.bot h1, 
+.message.bot h2, 
+.message.bot h3 {
+  margin: 8px 0;
+}
+
+.message.bot p {
+  margin: 6px 0;
+}
+
+.message.bot ul, 
+.message.bot ol {
+  padding-left: 20px;
+  margin: 6px 0;
+}
+
+.message.bot code {
+  background: #eee;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.message.bot pre {
+  background: #2d2d2d;
+  color: #f8f8f2;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0b5ed7;
+}
